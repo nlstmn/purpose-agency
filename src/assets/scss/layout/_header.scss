@@ -65,6 +65,7 @@
     &.ptf-navbar--sticky {
       animation: ptf_fade_in_down var(--ptf-transition-duration)
         var(--ptf-transition-easing) forwards;
+      box-shadow: 0 0 10px var(--ptf-accent-1);
     }
 
     &.ptf-on-scroll-show {

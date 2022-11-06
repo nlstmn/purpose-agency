@@ -5,6 +5,10 @@
   color: var(--ptf-color-white);
 }
 
+.has-orange-color {
+  color: var(--ptf-accent-1) !important;
+}
+
 .has-black-color {
   color: var(--ptf-color-black);
 }
@@ -165,6 +169,12 @@
       font-size: px2rem(36px);
     }
   }
+}
+
+.footer-logo-dark{
+  display: flex;
+  align-items: center;
+  padding-right: 2rem;
 }
 
 .fz-30 {

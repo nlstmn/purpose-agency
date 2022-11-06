@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 const socialList = [
   {
@@ -20,8 +20,8 @@ const socialList = [
   {
     iconName: "socicon-dribbble",
     link: "https://dribbble.com/",
-  },
-];
+  }
+]
 
 const SocialTwo = () => {
   return (
@@ -38,7 +38,7 @@ const SocialTwo = () => {
         </a>
       ))}
     </>
-  );
-};
+  )
+}
 
-export default SocialTwo;
+export default SocialTwo

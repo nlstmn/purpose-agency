@@ -13,6 +13,8 @@ import CounterTwo from "../components/counter/CounterTwo"
 import PortfolioTwo from "../components/portfolio/PortfolioTwo"
 import HeaderStudio from "../components/header/HeaderStudio"
 import ServiceList from "../components/list/ServiceList"
+import FooterThreeDark from "../components/footer/FooterThreeDark"
+import CopyRightThreeDark from "../components/footer/copyright/CopyRightThreeDark"
 
 const Preview = () => {
   return (
@@ -150,8 +152,17 @@ const Preview = () => {
                 style={{ "--ptf-xxl": "6.25rem", "--ptf-md": "3.125rem" }}
               ></div>
             </section>
+            <section>
+              <div className="container">
+                <div className="ptf-divider"></div>
+              </div>
+            </section>
             {/* LATEST WORKS SECTION */}
             <section>
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "8.125rem", "--ptf-md": "4.0625rem" }}
+              ></div>
               <div className="container">
                 <div
                   className="ptf-animated-block"
@@ -264,7 +275,7 @@ const Preview = () => {
                 className="ptf-spacer"
                 style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
               ></div>
-              <div className="container-xxl">
+              <div className="container">
                 <div
                   className="ptf-animated-block"
                   data-aos="fade"
@@ -284,7 +295,7 @@ const Preview = () => {
                   style={{ "--ptf-xxl": "5.625rem", "--ptf-md": "2.8125rem" }}
                 ></div>
               </div>
-              <div className="container-xxl">
+              <div className="container">
                 <div
                   className="ptf-animated-block"
                   data-aos="fade"
@@ -327,13 +338,13 @@ const Preview = () => {
           </div>
         </div>
       </div>
-      <footer className="ptf-footer ptf-footer--style-2">
-        <div className="container-xxl">
+      <footer className="ptf-footer ptf-footer--style-5">
+        <div className="container">
           <div className="ptf-footer__top">
-            <FooterThree />
+            <FooterThreeDark />
           </div>
           <div className="ptf-footer__bottom">
-            <CopyRightThree />
+            <CopyRightThreeDark />
           </div>
         </div>
       </footer>

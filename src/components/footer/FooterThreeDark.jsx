@@ -1,21 +1,17 @@
-import React from "react";
-import FooterList from "../list/FooterList";
+import React from "react"
+import FooterList from "../list/FooterList"
 
 const FooterThreeDark = () => {
   return (
     <div className="row">
-      <div className="col-12 col-lg">
-        {/* <!--Animated Block--> */}
+      <div className="col-12 col-lg footer-logo-dark">
         <div className="ptf-animated-block" data-aos="fade" data-aos-delay="0">
           <a href="index.html">
-            <img src="assets/img/root/logo-white.png" alt="" loading="lazy" />
+            <img src="assets/img/logos/logo-white.png" alt="" loading="lazy" />
           </a>
         </div>
       </div>
-      {/* End .col */}
-
       <div className="col-12 col-lg">
-        {/* <!--Animated Block--> */}
         <div
           className="ptf-animated-block"
           data-aos="fade"
@@ -26,10 +22,7 @@ const FooterThreeDark = () => {
           </div>
         </div>
       </div>
-      {/* End .col */}
-
       <div className="col-12 col-lg">
-        {/* <!--Animated Block--> */}
         <div
           className="ptf-animated-block"
           data-aos="fade"
@@ -50,9 +43,8 @@ const FooterThreeDark = () => {
           </div>
         </div>
       </div>
-      {/* End .col */}
     </div>
-  );
-};
+  )
+}
 
-export default FooterThreeDark;
+export default FooterThreeDark
