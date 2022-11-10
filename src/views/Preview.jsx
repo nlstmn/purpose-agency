@@ -85,16 +85,23 @@ const Preview = () => {
                     </div>
                   </div>
                 </div>
+                <div
+                  className="ptf-spacer"
+                  style={{
+                    "--ptf-xxl": "3.375rem",
+                    "--ptf-md": "1.1875rem",
+                  }}
+                ></div>
                 <div>
                   <a className="ptf-btn ptf-btn--primary" href="" target="_self">
                     Get Started
                   </a>
                   <Link
-                    className="ptf-btn ptf-btn--secondary"
+                    className="ptf-btn ptf-btn--secondary border-bottom-btn"
                     to="/service"
                     style={{ marginLeft: "2rem" }}
                   >
-                    Our Services
+                    Our Work
                   </Link>
                 </div>
               </div>
@@ -159,7 +166,7 @@ const Preview = () => {
                       data-aos-delay="0"
                     >
                       <h2 className="h1 large-heading has-accent-1">
-                        Creative Design & Advertising
+                        Strategy & Design for Social Impact
                       </h2>
                     </div>
                   </div>
