@@ -15,6 +15,7 @@ import HeaderStudio from "../components/header/HeaderStudio"
 import ServiceList from "../components/list/ServiceList"
 import FooterThreeDark from "../components/footer/FooterThreeDark"
 import CopyRightThreeDark from "../components/footer/copyright/CopyRightThreeDark"
+import { Link } from "react-router-dom"
 
 const Preview = () => {
   return (
@@ -31,7 +32,7 @@ const Preview = () => {
                 className="ptf-spacer"
                 style={{ "--ptf-xxl": "3.125rem", "--ptf-md": "1.5625rem" }}
               ></div>
-              <div className="container-xxl">
+              <div className="container">
                 <div
                   className="ptf-animated-block"
                   data-aos="fade"
@@ -56,10 +57,45 @@ const Preview = () => {
                   data-aos="fade"
                   data-aos-delay="100"
                 >
-                  <h1 className="fz-120 fz-90--lg fz-60--md lh-1p1">
+                  <h1 className="fz-120 fz-90--lg fz-60--md lh-1p1 main-home-title">
                     Digital Solutions for <br />
                     Your Business
                   </h1>
+                </div>
+                <div className="row">
+                  <div className="col-xl-8">
+                    <div style={{ maxWidth: "29.6875rem" }}>
+                      <div
+                        className="ptf-animated-block"
+                        data-aos="fade"
+                        data-aos-delay="200"
+                      >
+                        <div
+                          className="ptf-spacer"
+                          style={{
+                            "--ptf-xxl": "4.375rem",
+                            "--ptf-md": "2.1875rem",
+                          }}
+                        ></div>
+                        <p className="fz-24">
+                          Purpose Works is creative agency based out of Vancouver, Canada.
+                          We provide high-performing websites that deliver on design, user experience and engagement!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <a className="ptf-btn ptf-btn--primary" href="" target="_self">
+                    Get Started
+                  </a>
+                  <Link
+                    className="ptf-btn ptf-btn--secondary"
+                    to="/service"
+                    style={{ marginLeft: "2rem" }}
+                  >
+                    Our Services
+                  </Link>
                 </div>
               </div>
             </section>

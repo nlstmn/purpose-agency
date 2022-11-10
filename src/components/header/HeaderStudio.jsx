@@ -33,16 +33,8 @@ const HeaderStudio = () => {
               : "ptf-navbar ptf-navbar--main ptf-navbar--sticky"
           }
         >
-          <div className="container-xxl navbar-header-studio-main">
-            <Link
-              className="ptf-btn ptf-btn--secondary navbar-header-studio-main-btn"
-              to="/service"
-              style={{ marginLeft: "2rem" }}
-            >
-              Get in Touch
-            </Link>
+          <div className="container navbar-header-studio-main">
             <div className="ptf-navbar-inner">
-              {/* <!--Logo--> */}
               <Link className="ptf-navbar-logo" to="/">
                 <img
                   className="black"
@@ -57,14 +49,9 @@ const HeaderStudio = () => {
                   loading="lazy"
                 />
               </Link>
-              {/* <!--Navigation--> */}
               <nav className="ptf-nav ptf-nav--default">
-                {/* <!--Menu--> */}
                 <DropdownMenu />
               </nav>
-              {/* <!--Buttons--> */}
-
-              {/* <!--Navbar Search--> */}
               <div
                 className={
                   click ? "ptf-navbar-search is-open" : "ptf-navbar-search"
@@ -73,7 +60,6 @@ const HeaderStudio = () => {
                 <div className="ptf-navbar-search__wrapper">
                   <Search />
                 </div>
-
                 <div
                   className="ptf-navbar-search__toggle"
                   onClick={handleClick}
@@ -82,21 +68,16 @@ const HeaderStudio = () => {
                   <i className="lnir lnir-close"></i>
                 </div>
               </div>
-              {/* <!--Offcanvas Menu Toggle--> */}
-
               <div
                 className="ptf-offcanvas-menu-icon js-offcanvas-menu-toggle bar right"
                 onClick={handleClick1}
               >
                 <i className="lnir lnir-menu-alt-5"></i>
               </div>
-              {/* Toggle bar icon */}
             </div>
           </div>
         </div>
       </header>
-      {/* End header */}
-
       <div
         className={
           click1 ? "ptf-offcanvas-menu is-open" : "ptf-offcanvas-menu "

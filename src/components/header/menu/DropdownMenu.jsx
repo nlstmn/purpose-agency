@@ -1,148 +1,50 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from "react"
+import { Link } from "react-router-dom"
 
 const menuContent = [
   {
-    name: "Home",
+    name: "Latest Works",
     activeClass: "sf-with-ul",
-    menuClass: "two-columns current-menu-item",
-    dropDownItems: [
-      {
-        name: "Home Default",
-        routerPath: "/home-default",
-      },
-      {
-        name: "Home Studio",
-        routerPath: "/home-studio",
-      },
-      {
-        name: "Home Agency",
-        routerPath: "/home-agency",
-      },
-      {
-        name: "Home Minimal",
-        routerPath: "/home-minimal",
-      },
-      {
-        name: "Home Dark",
-        routerPath: "/home-dark",
-      },
-      {
-        name: "Home Freelancer",
-        routerPath: "/home-freelancer",
-      },
-      {
-        name: "Home Trending",
-        routerPath: "/home-trending",
-      },
-      {
-        name: "Home Modern",
-        routerPath: "/home-modern",
-      },
-    ],
+    menuClass: "two-columns current-menu-item"
   },
   {
-    name: "Portfolio",
+    name: "Services",
     activeClass: "",
     menuClass: "",
     dropDownItems: [
       {
-        name: "Works Grid",
+        name: "Web Design & Development",
         routerPath: "/works-grid",
       },
       {
-        name: "Works Masonry",
+        name: "Custom WordPress",
         routerPath: "/works-masonry",
       },
       {
-        name: "Works Listing",
+        name: "Digital Marketing",
         routerPath: "/works-listing",
       },
       {
-        name: "Works Carousel",
+        name: "Strategy & Design for Social Impact",
         routerPath: "/works-carousel",
       },
       {
-        name: "Works Showcase",
+        name: "Hosting + Support",
         routerPath: "/works-showcase",
       },
     ],
   },
   {
-    name: "Blog",
+    name: "About Us",
     activeClass: "",
-    menuClass: "",
-    dropDownItems: [
-      {
-        name: "Blog Grid",
-        routerPath: "/blog-grid",
-      },
-      {
-        name: "Blog Masonry",
-        routerPath: "/blog-masonry",
-      },
-      {
-        name: "Blog Sidebar",
-        routerPath: "/blog-sidebar",
-      },
-      {
-        name: "Blog Details",
-        routerPath: "/blog-details",
-      },
-      {
-        name: "Blog Details Sidebar",
-        routerPath: "/blog-details-sidebar",
-      },
-    ],
+    menuClass: ""
   },
   {
-    name: "Pages",
+    name: "Blog",
     activeClass: "",
-    menuClass: "two-columns",
-    dropDownItems: [
-      {
-        name: "About Us",
-        routerPath: "/about-us",
-      },
-      {
-        name: "About Me",
-        routerPath: "/about-me",
-      },
-      {
-        name: "Services",
-        routerPath: "/service",
-      },
-      {
-        name: "Service Details",
-        routerPath: "/service-details",
-      },
-      {
-        name: "Pricing",
-        routerPath: "/pricing",
-      },
-      {
-        name: "Team",
-        routerPath: "/team",
-      },
-      {
-        name: "FAQ",
-        routerPath: "/faq",
-      },
-      {
-        name: "Contact",
-        routerPath: "/contact",
-      },
-      {
-        name: "Page 404",
-        routerPath: "/404",
-      },
-      {
-        name: "Coming Soon",
-        routerPath: "/coming-soon",
-      },
-    ],
+    menuClass: "two-columns"
   },
-];
+]
 
 const DropdownMenu = () => {
   return (
@@ -152,21 +54,29 @@ const DropdownMenu = () => {
           <a href="#" className={item.activeClass}>
             <span>{item.name}</span>
           </a>
-
-          <ul className="sub-menu mega">
-            {item.dropDownItems.map((val, i) => (
-              <li key={i}>
-                <Link to={val.routerPath}>
-                  {" "}
-                  <span>{val.name}</span>
-                </Link>
-              </li>
-            ))}
-          </ul>
+          {
+            item.dropDownItems !== undefined ?
+              <ul className="sub-menu mega">
+                {item.dropDownItems?.map((val, i) => (
+                  <li key={i}>
+                    <Link to={val.routerPath}>
+                      {" "}
+                      <span>{val.name}</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul> : null
+          }
         </li>
       ))}
+      <Link
+        className="ptf-btn ptf-btn--secondary navbar-header-studio-main-btn"
+        to="/service"
+      >
+        Get in Touch
+      </Link>
     </ul>
-  );
-};
+  )
+}
 
-export default DropdownMenu;
+export default DropdownMenu
