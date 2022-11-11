@@ -1,16 +1,13 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from "react"
+import { Link } from "react-router-dom"
 
 const List = [
-  "Branding Design",
-  "Advertising",
-  "Package Design",
-  "Animation",
-  "UI/UX Interaction",
-  "Mobile Design",
-  "Photography",
-  "Illustration",
-];
+  "Branding + Design",
+  "Website Development",
+  "Strategy & Design for Social Impact",
+  "Marketing",
+  "Custom WordPress"
+]
 
 const ServiceList = () => {
   return (
@@ -21,7 +18,7 @@ const ServiceList = () => {
         </li>
       ))}
     </>
-  );
-};
+  )
+}
 
-export default ServiceList;
+export default ServiceList
