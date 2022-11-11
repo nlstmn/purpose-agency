@@ -15,12 +15,12 @@
 -------------------------------------------- */
 
 .ptf-social-icon--style-1 {
-  color: var(--ptf-accent-1) !important;
+  color: #F9C914 !important;
   font-size: px2rem(20px);
   line-height: 1;
 
   & + & {
-    margin-left: px2rem(25px);
+    margin-left: 3.5625rem;
   }
 
   &:hover {

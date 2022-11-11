@@ -386,9 +386,6 @@ const Preview = () => {
           <div className="ptf-footer__top">
             <FooterThreeDark />
           </div>
-          <div className="ptf-footer__bottom">
-            <CopyRightThreeDark />
-          </div>
         </div>
       </footer>
     </div>
