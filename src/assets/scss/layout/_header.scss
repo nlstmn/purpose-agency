@@ -65,7 +65,7 @@
     &.ptf-navbar--sticky {
       animation: ptf_fade_in_down var(--ptf-transition-duration)
         var(--ptf-transition-easing) forwards;
-      box-shadow: 0 0 10px var(--ptf-accent-1);
+      box-shadow: 0 0 10px #FBCA09;
     }
 
     &.ptf-on-scroll-show {
@@ -88,6 +88,7 @@
   &,
   &.ptf-navbar--solid {
     background-color: var(--ptf-color-white);
+    background-color: #F6F3F0;
 
     .ptf-header--style-5 & {
       background-color: var(--ptf-color-12);
