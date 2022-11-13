@@ -2,11 +2,6 @@ import React from "react";
 
 const SocialShare = [
   {
-    iconName: "socicon-twitter",
-    link: "https://twitter.com/",
-    iconClass: "twitter",
-  },
-  {
     iconName: "socicon-facebook",
     link: "https://www.facebook.com/",
     iconClass: "facebook",
@@ -17,9 +12,14 @@ const SocialShare = [
     iconClass: "instagram",
   },
   {
-    iconName: "socicon-pinterest",
-    link: "https://www.pinterest.com/",
-    iconClass: "pinterest",
+    iconName: "socicon-twitter",
+    link: "https://www.twitter.com/",
+    iconClass: "twitter",
+  },
+  {
+    iconName: "socicon-linkedin",
+    link: "https://linkedin.com/",
+    iconClass: "linkedin",
   },
 ];
 const Social = () => {

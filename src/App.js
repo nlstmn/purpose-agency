@@ -17,8 +17,8 @@ const App = () => {
   return (
     <>
       <Helmet>
-        <title>PurposeWorks</title>
-        <meta name="description" content="PurposeWorks" />
+        <title>Purpose Works</title>
+        <meta name="description" content="Purpose Works" />
         <meta
           name="keywords"
           content="agency, bootstrap 5, business, clean, corporate, creative, fullpage, minimal, modern, multipurpose, parallax, personal, photography, portfolio, showcase"

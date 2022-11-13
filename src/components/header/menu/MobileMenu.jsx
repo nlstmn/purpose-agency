@@ -169,19 +169,7 @@ const MobileMenu = () => {
 
       <div className="ptf-offcanvas-menu__footer">
         <p className="ptf-offcanvas-menu__copyright">
-          @{new Date().getFullYear()} <span>Moonex</span>. All Rights Reserved.{" "}
-          <br />
-          Development by{" "}
-          <span>
-            <a
-              href="https://themeforest.net/user/ib-themes"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              ib-themes
-            </a>
-          </span>
-          .
+          @{new Date().getFullYear()} <span>Purpose Works</span>. All Rights Reserved.{" "}
         </p>
         <Social />
       </div>

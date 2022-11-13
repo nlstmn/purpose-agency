@@ -18,6 +18,8 @@ import CopyRightThreeDark from "../components/footer/copyright/CopyRightThreeDar
 import { Link } from "react-router-dom"
 
 const Preview = () => {
+  const avatar = "assets/img/demo.jpg"
+
   return (
     <div className="ptf-site-wrapper animsition ptf-is--home-studio">
       <Helmet>
@@ -104,6 +106,25 @@ const Preview = () => {
                     Our Work
                   </Link>
                 </div>
+              </div>
+            </section>
+            {/* ILLUSTRATION SECTION */}
+            <section>
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "5.625rem" }}
+              ></div>
+              <div className="container">
+                <img
+                  src="assets/img/root/demo.jpg"
+                  alt="layer"
+                  loading="lazy"
+                  className="lay"
+                  style={{
+                    zIndex: "1",
+                  }}
+                  srcSet={avatar}
+                />
               </div>
             </section>
             {/* CALL US SECTION */}
