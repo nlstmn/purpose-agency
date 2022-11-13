@@ -165,7 +165,7 @@ const Preview = () => {
                       data-aos="fade"
                       data-aos-delay="0"
                     >
-                      <h2 className="h1 large-heading has-accent-1">
+                      <h2 className="h1 large-heading">
                         Strategy & Design for Social Impact
                       </h2>
                     </div>
@@ -212,7 +212,7 @@ const Preview = () => {
                   data-aos="fade"
                   data-aos-delay="0"
                 >
-                  <h2 className="h1 large-heading has-accent-1 d-inline-flex">
+                  <h2 className="h1 large-heading d-inline-flex">
                     Latest Works
                   </h2>
                   <a
