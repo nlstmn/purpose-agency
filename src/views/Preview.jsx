@@ -114,7 +114,7 @@ const Preview = () => {
                 className="ptf-spacer"
                 style={{ "--ptf-xxl": "5.625rem" }}
               ></div>
-              <div className="container">
+              <div className="container text-center">
                 <img
                   src="assets/img/root/demo.jpg"
                   alt="layer"
@@ -125,6 +125,13 @@ const Preview = () => {
                   }}
                   srcSet={avatar}
                 />
+                <div
+                  className="ptf-spacer"
+                  style={{ "--ptf-xxl": "3.75rem" }}
+                ></div>
+                <div className="ptf-work__category">
+                  Specializing in nonprofit web design and brand strategy for ambitious social impact organizations
+                </div>
               </div>
             </section>
             {/* CALL US SECTION */}
