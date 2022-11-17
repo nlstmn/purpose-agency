@@ -19,7 +19,7 @@ const SocialImprint = () => {
     return (
         <div className="row" style={{ "--bs-gutter-y": "2rem" }}>
             {brandContent.map((item, i) => (
-                <div className="col-6 col-md-3 col-lg-4" key={i}>
+                <div className="col-6 col-md-3 col-lg-6" key={i}>
                     <div
                         className="ptf-animated-block"
                         data-aos="fade"

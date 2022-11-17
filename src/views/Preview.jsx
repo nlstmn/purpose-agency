@@ -10,7 +10,7 @@ import FooterThreeDark from "../components/footer/FooterThreeDark"
 import { Link } from "react-router-dom"
 
 const Preview = () => {
-  const avatar = "assets/img/demo.jpg"
+  const avatar = "assets/img/home.jpeg"
 
   return (
     <div className="ptf-site-wrapper animsition ptf-is--home-studio">
@@ -108,7 +108,7 @@ const Preview = () => {
               ></div>
               <div className="container text-center">
                 <img
-                  src="assets/img/root/demo.jpg"
+                  src="assets/img/root/home.jpeg"
                   alt="layer"
                   loading="lazy"
                   className="lay"
