@@ -108,10 +108,14 @@
   margin-left: 2.5rem;
 }
 .js-offcanvas-menu-toggle.bar {
-  position: absolute;
-  right: 0;
-  cursor: pointer;
-  z-index: 5;
+  display: none;
+  @include mq("large") {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    z-index: 5;
+    display: inline-flex;
+  }
 }
 .sidebar-menu_wrapper {
   .pro-menu-item.pro-sub-menu {

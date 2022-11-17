@@ -1,20 +1,12 @@
 import React from "react"
 import { Helmet } from "react-helmet"
-import HeaderPreview from "../components/header/HeaderPreview"
-import BlogDemo from "../components/preview/BlogDemo"
-import MainDemo from "../components/preview/MainDemo"
-import PortfolioDemo from "../components/preview/PortfolioDemo"
-import OthersPages from "../components/preview/OthersPages"
 import Blog from "../components/blog/Blog"
-import FooterThree from "../components/footer/FooterThree"
-import CopyRightThree from "../components/footer/copyright/CopyRightThree"
 import ContactJarallax from "../components/jarallax/ContactJarallax"
 import CounterTwo from "../components/counter/CounterTwo"
 import PortfolioTwo from "../components/portfolio/PortfolioTwo"
 import HeaderStudio from "../components/header/HeaderStudio"
 import ServiceList from "../components/list/ServiceList"
 import FooterThreeDark from "../components/footer/FooterThreeDark"
-import CopyRightThreeDark from "../components/footer/copyright/CopyRightThreeDark"
 import { Link } from "react-router-dom"
 
 const Preview = () => {
@@ -278,69 +270,6 @@ const Preview = () => {
                 style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
               ></div>
             </section>
-            {/*<section>
-              <div className="container-xxl">
-                <div
-                  className="ptf-spacer"
-                  style={{ "--ptf-xxl": "8.125rem", "--ptf-md": "4.0625rem" }}
-                ></div>
-                <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="0"
-                >
-                  <h2 className="h5 d-inline-flex">Latest Work</h2>
-                  <Link
-                    className="ptf-link-with-arrow fz-14 d-none d-lg-inline-flex"
-                    to="/works-grid"
-                    style={{ marginLeft: "3.125rem" }}
-                  >
-                    All Projects <i className="lnil lnil-chevron-right"></i>
-                  </Link>
-                </div>
-                <div
-                  className="ptf-spacer"
-                  style={{ "--ptf-xxl": "5.625rem", "--ptf-md": "2.8125rem" }}
-                ></div>
-                <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="0"
-                >
-                  <div
-                    className="ptf-isotope-grid row"
-                    style={{
-                      "--bs-gutter-x": "4.75rem",
-                      "--bs-gutter-y": "4.75rem",
-                    }}
-                  >
-                    <PortfolioThree />
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section className="ptf-custom--1562">
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
-              ></div>
-              <div className="container-xxl">
-                <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="0"
-                >
-                  <h2 className="h5">Moonex’s Awards</h2>
-                </div>
-                <div
-                  className="ptf-spacer"
-                  style={{ "--ptf-xxl": "5.625rem", "--ptf-md": "2.8125rem" }}
-                ></div>
-              </div>
-              <div className="container-xxl">
-                <Award />
-              </div>
-            </section>*/}
             <section>
               <div
                 className="ptf-spacer"

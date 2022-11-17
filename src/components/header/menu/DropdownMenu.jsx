@@ -37,7 +37,8 @@ const menuContent = [
   {
     name: "About Us",
     activeClass: "",
-    menuClass: ""
+    menuClass: "",
+    routerPath: "/about-us"
   },
   {
     name: "Blog",
@@ -51,17 +52,19 @@ const DropdownMenu = () => {
     <ul className="sf-menu">
       {menuContent.map((item, i) => (
         <li className={i === 1 ? "submenuli" : `menu-item-has-children ${item.menuClass}`} key={i}>
-          <a href="#" className={item.activeClass}>
-            <span>{item.name}</span>
-            {
-              i === 1 ?
-                (
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="arrow-nav">
-                    <path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
-                  </svg>
-                ) : null
-            }
-          </a>
+          <Link to={item.routerPath}>
+            <a href="#" className={item.activeClass}>
+              <span>{item.name}</span>
+              {
+                i === 1 ?
+                  (
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="arrow-nav">
+                      <path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                    </svg>
+                  ) : null
+              }
+            </a>
+          </Link>
           {
             item.dropDownItems !== undefined ?
               <ul className="sub-menu mega">

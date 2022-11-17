@@ -37,6 +37,15 @@
 		margin-top: px2rem(35px);
 
 		text-transform: uppercase;
+		color: black;
+		font-size: px2rem(16px);
+		font-weight: 700;
+
+		transition: color var(--ptf-transition-duration) var(--ptf-transition-easing);
+	}
+
+	&__desc {
+		margin-top: 1rem;
 		color: var(--ptf-color-3);
 		font-size: px2rem(16px);
 		font-weight: 700;
