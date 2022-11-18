@@ -1,18 +1,9 @@
 import React from "react"
 import { Helmet } from "react-helmet"
-import Award from "../../../components/award/Award"
 import Brand from "../../../components/brand/Brand"
 import SocialImprint from "../../../components/SocialImprint"
-import Counter from "../../../components/counter/Counter"
-import CopyRight from "../../../components/footer/copyright/CopyRight"
-import Footer from "../../../components/footer/Footer"
-import HeaderDefault from "../../../components/header/HeaderDefault"
 import HeaderStudio from "../../../components/header/HeaderStudio"
-import ImageGrid from "../../../components/image-grid/ImageGrid"
-import ServiceOne from "../../../components/service/ServiceOne"
-import Testimonial from "../../../components/testimonial/Testimonial"
 import FooterThreeDark from "../../../components/footer/FooterThreeDark"
-import ContactJarallax from "../../../components/jarallax/ContactJarallax"
 import { Link } from "react-router-dom"
 
 const AboutUs = () => {
@@ -211,11 +202,11 @@ const AboutUs = () => {
                 style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
               ></div>
               <div className="container text-center">
-                <div className="d-inline-flex text-start" style={{ alignItems: "center", paddingRight: "3rem" }}>
+                <div className="d-inline-flex text-start" style={{ alignItems: "end" }}>
                   <div className="ptf-animated-block" data-aos="fade" data-aos-delay="0">
-                    <div className="fz-36 has-accent-1">Have a project for us?</div>
+                    <div className="about-passion font-800 has-accent-1">Have a project for us?</div>
                     <div className="ptf-spacer" style={{ "--ptf-xxl": "0.625rem" }}></div>
-                    <div className="fz-36 fz-90--md fw-bold lh-1p1">
+                    <div className="font-s-24 fw-bold lh-1p1">
                       We help businesses<br />succeed in the digital age.
                     </div>
                   </div>

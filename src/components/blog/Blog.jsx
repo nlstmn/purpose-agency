@@ -1,32 +1,32 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from "react"
+import { Link } from "react-router-dom"
 
 const blogContent = [
   {
-    img: "post-1",
+    img: "post-1.png",
     cat: "Product",
     date: "Dec 15, 2021",
-    title: "Review product BWIB",
+    title: "The Importance Of Online Customer Reviews",
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     Nullam dignissim tortor vitae mattis tempor...`,
   },
   {
-    img: "post-2",
+    img: "post-2.jpg",
     cat: "Inspiration",
     date: "Dec 7, 2021",
-    title: " Site inspiration with Swiss style",
+    title: "How to start an online business in 3 steps",
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     Nullam dignissim tortor vitae mattis tempor...`,
   },
   {
-    img: "post-3",
+    img: "post-3.png",
     cat: "Community",
     date: "Dec 7, 2021",
     title: "Minimalist Trends",
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     Nullam dignissim tortor vitae mattis tempor...`,
-  },
-];
+  }
+]
 
 const Blog = () => {
   return (
@@ -34,11 +34,10 @@ const Blog = () => {
       {blogContent.map((val, i) => (
         <div className="col-xl-4 col-lg-4" key={i}>
           <div className="grid-item filter-1 filter-4">
-            {/* <!--Blog Post--> */}
             <article className="ptf-post ptf-post--style-4">
               <div className="ptf-post__media">
                 <img
-                  src={`assets/img/home/default/${val.img}.png`}
+                  src={`assets/img/home/default/${val.img}`}
                   alt=""
                   loading="lazy"
                 />
@@ -76,7 +75,7 @@ const Blog = () => {
         </div>
       ))}
     </>
-  );
-};
+  )
+}
 
-export default Blog;
+export default Blog

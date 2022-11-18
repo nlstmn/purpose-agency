@@ -102,10 +102,6 @@ const Preview = () => {
             </section>
             {/* ILLUSTRATION SECTION */}
             <section>
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "5.625rem" }}
-              ></div>
               <div className="container text-center">
                 <img
                   src="assets/img/root/home.jpeg"
@@ -114,6 +110,7 @@ const Preview = () => {
                   className="lay"
                   style={{
                     zIndex: "1",
+                    width: "70%"
                   }}
                   srcSet={avatar}
                 />
