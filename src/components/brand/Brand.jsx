@@ -54,8 +54,8 @@ const Brand = () => {
                   loading="lazy"
                 />
               </div>
-              <h6 className="ptf-partner-box__title">{item.title}</h6>
-              <h6 className="ptf-partner-box__desc">{item.subtitle}</h6>
+              <h6 className="ptf-partner-box__title font-800 font-s-24">{item.title}</h6>
+              <h6 className="ptf-partner-box__desc font-s-18">{item.subtitle}</h6>
             </div>
             <div
               className="ptf-spacer"

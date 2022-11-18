@@ -22,6 +22,7 @@ const FooterThreeDark = () => {
             <p className="fz-18 has-3-color">
               8381 128 Street<br />Unit 201C<br />Surrey, BC V3W4N9<br /><br />
               Web design and website development in Vancouver<br />
+              Purpose Works has been operational since 2018<br />
               © Purpose Works, Vancouver Web Design company. All rights reserved.
               Crafted with ❤️ in Vancouver, Turkey, Bulgaria
             </p>

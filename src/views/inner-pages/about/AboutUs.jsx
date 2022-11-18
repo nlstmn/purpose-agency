@@ -38,7 +38,7 @@ const AboutUs = () => {
                       data-aos="fade"
                       data-aos-delay="0"
                     >
-                      <h2 className="large-heading">
+                      <h2 className="about-passion">
                         Passion combined with experience
                       </h2>
                     </div>
@@ -118,7 +118,7 @@ const AboutUs = () => {
             <section>
               <div
                 className="ptf-spacer"
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+                style={{ "--ptf-xxl": "6.25rem", "--ptf-md": "5rem" }}
               ></div>
               <div className="container">
                 <div className="row">
@@ -128,7 +128,7 @@ const AboutUs = () => {
                       data-aos="fade"
                       data-aos-delay="0"
                     >
-                      <h2 className="h1 large-heading">Meet The Team</h2>
+                      <h2 className="h1 large-heading font-800">Meet The Team</h2>
                     </div>
                     <div
                       className="ptf-spacer"
@@ -137,7 +137,7 @@ const AboutUs = () => {
                   </div>
                 </div>
                 <div className="container text-center">
-                  <div className="ptf-work__category">
+                  <div className="ptf-work__category font-s-24">
                     We are based out of Vancouver, and our team includes designers and developers from around the world, allowing us to bridge the gap between languages and cultural influences.
                     We strive for a diverse, inclusive and supportive team of proactive creators and strategic thinkers, working together to deliver the best.
                   </div>
@@ -176,7 +176,7 @@ const AboutUs = () => {
                       data-aos="fade"
                       data-aos-delay="0"
                     >
-                      <h2 className="h1 large-heading">Our Social Imprint</h2>
+                      <h2 className="h1 large-heading font-800">Our Social Imprint</h2>
                     </div>
                     <div
                       className="ptf-spacer"
@@ -185,7 +185,7 @@ const AboutUs = () => {
                   </div>
                 </div>
                 <div className="container text-center">
-                  <div className="ptf-work__category">
+                  <div className="ptf-work__category font-s-24">
                     Our team strongly believes in giving back to the community.
                     Purpose Works invests 10% of all profits back into communities across South Asia.
                     These funds are spent on training rural girls and children on the basics of computer literacy.
