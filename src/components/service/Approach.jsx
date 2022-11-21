@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 
 const approachContent = [
   {
@@ -38,7 +39,7 @@ const Approach = () => {
       }}
     >
       {approachContent.map((val, i) => (
-        <div className="col-xl-6 col-lg-6" key={i}>
+        <div className="col-xl-6 col-lg-6 service-single" key={i}>
           <div
             className="ptf-animated-block"
             data-aos="fade"
@@ -54,6 +55,17 @@ const Approach = () => {
               <div className="ptf-approach-box__content">
                 <p>{val.descriptions}</p>
               </div>
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "2.5rem", "--ptf-md": "2.5rem" }}
+              ></div>
+              <Link className="ptf-view-more-link" to="/blog-details">
+                View more
+              </Link>
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "5rem", "--ptf-md": "2.5rem" }}
+              ></div>
             </div>
           </div>
         </div>

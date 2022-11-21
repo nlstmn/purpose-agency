@@ -6,6 +6,7 @@ import Approach from "../../..//components/service/Approach"
 import ContactJarallax from "../../../components/jarallax/ContactJarallax"
 import CopyRight from "../../../components/footer/copyright/CopyRight"
 import FooterThreeDark from "../../../components/footer/FooterThreeDark"
+import { Link } from "react-router-dom"
 
 const Service = () => {
   return (
@@ -49,15 +50,7 @@ const Service = () => {
               </div>
             </div>
           </section>
-          <section
-            className="has-accent-1-background"
-            style={{
-              backgroundImage: `url(${process.env.PUBLIC_URL + "assets/img/root/service-bubble.png"
-                })`,
-              backgroundRepeat: "no-repeat",
-              backgroundPosition: "100% calc(100% + 120px)",
-            }}
-          >
+          <section>
             <div
               className="ptf-spacer"
               style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
@@ -82,10 +75,6 @@ const Service = () => {
             ></div>
           </section>
           <section>
-            <div
-              className="ptf-spacer"
-              style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
-            ></div>
             <div className="container">
               <div className="row">
                 <div className="col-xl-9">
@@ -111,19 +100,33 @@ const Service = () => {
               </div>
             </div>
           </section>
-          <section
-            className="jarallax jarallax-img"
-            style={{
-              backgroundImage: `url(${process.env.PUBLIC_URL +
-                "assets/img/services-call-to-action-background.png"
-                })`,
-            }}
-          >
+          <section className="jarallax jarallax-img jarallax-services">
             <div
               className="ptf-spacer"
-              style={{ "--ptf-xxl": " 12.5rem", "--ptf-md": "6.25rem" }}
+              style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
             ></div>
-            <ContactJarallax />
+            <div className="container text-center">
+              <div className="flex-column text-center">
+                <div className="ptf-animated-block" data-aos="fade" data-aos-delay="0">
+                  <div className="ptf-spacer" style={{ "--ptf-xxl": "0.625rem" }}></div>
+                  <div className="font-s-24 fw-bold lh-1p1">
+                    Got a project in mind?
+                  </div>
+                </div>
+                <div
+                  className="ptf-spacer"
+                  style={{ "--ptf-xxl": "2.5rem", "--ptf-md": "5rem" }}
+                ></div>
+                <div className="ptf-animated-block" data-aos="fade" data-aos-delay="0">
+                  <Link
+                    className="ptf-btn ptf-btn--secondary navbar-header-studio-main-btn services-main-btn"
+                    to="/service"
+                  >
+                    <h1 className="large-heading">Get in Touch</h1>
+                  </Link>
+                </div>
+              </div>
+            </div>
             <div
               className="ptf-spacer"
               style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
