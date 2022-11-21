@@ -5,7 +5,7 @@ import BlogCommentForm from "../../../components/blog/BlogCommentForm"
 import BlogPostAuthor from "../../../components/blog/BlogPostAuthor"
 import RelatedPost from "../../../components/blog/RelatedPost"
 import CopyRight from "../../../components/footer/copyright/CopyRight"
-import Footer from "../../../components/footer/Footer"
+import FooterThreeDark from "../../../components/footer/FooterThreeDark"
 import HeaderStudio from "../../../components/header/HeaderStudio"
 import ImageGridTwo from "../../../components/image-grid/ImageGridTwo"
 import SocialFour from "../../../components/social/SocialFour"
@@ -378,13 +378,10 @@ const BlogDetails = () => {
           </article>
         </div>
       </div>
-      <footer className="ptf-footer ptf-footer--style-1">
-        <div className="container-xxl">
+      <footer className="ptf-footer ptf-footer--style-5">
+        <div className="container">
           <div className="ptf-footer__top">
-            <Footer />
-          </div>
-          <div className="ptf-footer__bottom">
-            <CopyRight />
+            <FooterThreeDark />
           </div>
         </div>
       </footer>

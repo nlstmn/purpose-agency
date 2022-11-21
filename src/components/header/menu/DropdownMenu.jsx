@@ -11,6 +11,7 @@ const menuContent = [
     name: "Services",
     activeClass: "",
     menuClass: "",
+    routerPath: "/service",
     dropDownItems: [
       {
         name: "Web Design & Development",
