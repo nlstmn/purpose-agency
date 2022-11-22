@@ -22,7 +22,7 @@ const approachContent = [
     title: "Strategy & Design for Nonprofits",
     descriptions: `Our Creative Director is still the CEO of an International Development organization - Finally, someone that understands the pain of organizations and speaks your own language.`,
     delayAnimation: "200",
-    linkTo: "/web-design-development"
+    linkTo: "/strategy-design-social-impact"
   },
   {
     subTitle: "FOUR",

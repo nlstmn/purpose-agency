@@ -14,6 +14,7 @@ import Service from "../views/inner-pages/service/Service"
 import ServiceDetails from "../views/inner-pages/service/ServiceDetails"
 import WebDesignDevelopment from "../views/inner-pages/service/WebDesignDevelopment"
 import HostingSupport from "../views/inner-pages/service/HostingSupport"
+import StrategyDesign from "../views/inner-pages/service/StrategyDesign"
 
 // About
 import AboutUs from "../views/inner-pages/about/AboutUs"
@@ -65,6 +66,7 @@ const Routes = () => {
           <Route path="/service-details" component={ServiceDetails} />
           <Route path="/web-design-development" component={WebDesignDevelopment} />
           <Route path="/hosting-support" component={HostingSupport} />
+          <Route path="/strategy-design-social-impact" component={StrategyDesign} />
 
           {/* About */}
           <Route path="/about-us" component={AboutUs} />

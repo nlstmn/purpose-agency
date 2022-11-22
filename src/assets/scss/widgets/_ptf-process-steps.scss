@@ -51,3 +51,31 @@
 	border-top-style: solid;
 	border-top-color: var(--ptf-border-color);
 }
+
+.ptf-process-itemm {
+	counter-increment: process;
+
+	padding-bottom: 20px;
+
+	&__title {
+		text-transform: uppercase;
+		font-size: px2rem(20px);
+	}
+
+	&__text {
+		display: block;
+
+		margin-top: px2rem(15px);
+
+		font-size: px2rem(18px);
+	}
+
+}
+
+.ptf-process-itemm + .ptf-process-itemm {
+	padding-top: px2rem(60px);
+
+	border-top-width: var(--ptf-border-width);
+	border-top-style: solid;
+	border-top-color: var(--ptf-border-color);
+}

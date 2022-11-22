@@ -6,27 +6,42 @@ const counterUpContent = [
   {
     startCount: "0",
     endCount: "95",
-    metaText1: "Support",
-    desc: "From WordPress plugin updates to adding new content, we make sure your website is always up to date and evolving with your business.",
+    metaText1: "WEB DEVELOPMENT",
+    desc: "Responsive Websites",
+    desc1: "User Experience Design",
+    desc2: "Copywriting",
+    desc3: "Google Analytics",
+    desc4: "Online Stores",
+    desc5: "CRM",
     animationDelay: "0",
   },
   {
     startCount: "0",
     endCount: "98",
-    metaText1: "Hosting",
-    desc: "Our servers are located within Canada, eliminating any information leaks or privacy violations when hosting internationally. You can let your shoppers and donors know about this piece of mind information that can lead to more money for your business and nonprofits.",
+    metaText1: "DIGITAL MARKETING",
+    desc: "Google Ad Grants application & Management",
+    desc1: "SEO for Nonprofits",
+    desc2: "Google Analytics",
+    desc3: "Google Ads",
+    desc4: "Email Campaigns",
+    desc5: "",
     animationDelay: "100",
   },
   {
     startCount: "0",
     endCount: "90",
-    desc: "A great website design with good content is still not enough to get website visitors. Your competitor is most likely using some format of digital marketing, in that case, without some investment on your end, you won’t make it.",
-    metaText1: "Digital Marketing",
+    desc: "Logo Creation",
+    desc1: "Naming & Taglines",
+    desc2: "Infographics",
+    desc3: "PowerPoint Presentations",
+    desc4: "Welcome Packages",
+    desc5: "Impact & Annual Reports",
+    metaText1: "BRAND & STRATEGY",
     animationDelay: "200",
   }
 ]
 
-const CounterThree = () => {
+const CounterFive = () => {
   const [focus, setFocus] = React.useState(false)
   return (
     <>
@@ -51,7 +66,12 @@ const CounterThree = () => {
                 style={{ "--ptf-xxl": "2.5rem" }}
               ></div>
               <h5 className="ptf-counter-up__title">
-                {val.desc}
+                {val.desc}<br/>
+                {val.desc1}<br/>
+                {val.desc2}<br/>
+                {val.desc3}<br/>
+                {val.desc4}<br/>
+                {val.desc5}<br/>
               </h5>
             </div>
           </div>
@@ -61,4 +81,4 @@ const CounterThree = () => {
   )
 }
 
-export default CounterThree
+export default CounterFive

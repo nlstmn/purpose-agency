@@ -28,26 +28,24 @@ const HostingSupport = () => {
             ></div>
             <div className="container">
               <div className="row">
-                <div className="col-xl-9">
-                  <div
-                    className="ptf-animated-block"
-                    data-aos="fade"
-                    data-aos-delay="0"
-                  >
-                    <h1 className="large-heading">Support + Hosting</h1>
-                    <div
-                      className="ptf-spacer"
-                      style={{ "--ptf-xxl": "2.5rem" }}
-                    ></div>
-                    <p className="fz-18 text-center">
-                      We handle backups, malware, virus scanning, SSL Certificates, and much more. We also provide web hosting that offers your visitors a fast-loading website - slow websites kill a business. We will monitor and as your web traffic increases, we can increase capacity with the click of a button eliminating any business interruption. Slow speed negatively affects your site’s search engine rankings.
-                    </p>
-                  </div>
+                <div
+                  className="ptf-animated-block"
+                  data-aos="fade"
+                  data-aos-delay="0"
+                >
+                  <h1 className="large-heading">Support + Hosting</h1>
                   <div
                     className="ptf-spacer"
-                    style={{ "--ptf-xxl": "6.25rem", "--ptf-md": "3.125rem" }}
+                    style={{ "--ptf-xxl": "2.5rem" }}
                   ></div>
+                  <p className="fz-18 text-center">
+                    We handle backups, malware, virus scanning, SSL Certificates, and much more. We also provide web hosting that offers your visitors a fast-loading website - slow websites kill a business. We will monitor and as your web traffic increases, we can increase capacity with the click of a button eliminating any business interruption. Slow speed negatively affects your site’s search engine rankings.
+                  </p>
                 </div>
+                <div
+                  className="ptf-spacer"
+                  style={{ "--ptf-xxl": "6.25rem", "--ptf-md": "3.125rem" }}
+                ></div>
                 <div className="col-lg-12">
                   <ImageGridFour />
                 </div>

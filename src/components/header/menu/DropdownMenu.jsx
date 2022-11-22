@@ -27,7 +27,7 @@ const menuContent = [
       },
       {
         name: "Strategy & Design for Social Impact",
-        routerPath: "/service-details",
+        routerPath: "/strategy-design-social-impact",
       },
       {
         name: "Hosting + Support",
