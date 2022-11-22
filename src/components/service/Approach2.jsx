@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 
 const approachContent = [
   {
@@ -28,7 +29,7 @@ const approachContent = [
   },
   {
     title: "Support + Grow",
-    descriptions: `We want to eliminate your business from experiencing any interruptions. That is why we have specialized monthly packages where we monitor your website for any security/malware, plugin updates, WordPress support and other services.`,
+    descriptions: ``,
     delayAnimation: "300",
   },
   {
@@ -74,7 +75,20 @@ const Approach2 = () => {
           key={i}
         >
           <h6 className="ptf-process-item__title">{val.title}</h6>
-          <p className="ptf-process-item__text">{val.descriptions}</p>
+          <p className="ptf-process-item__text">
+            {val.title === "Support + Grow"
+              ? (
+                <>
+                  We want to eliminate your business from experiencing any interruptions. That is why we have specialized monthly packages where we monitor your website for any security/malware, plugin updates,&nbsp;
+                  <Link
+                    className="ptf-btn ptf-btn--secondary navbar-header-studio-main-btn services-approach-btn"
+                    to="/hosting-support"
+                  >
+                    <p>WordPress support and other services.</p>
+                  </Link>
+                </>)
+              : val.descriptions}
+          </p>
         </li>
       ))}
     </ul>
