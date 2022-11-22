@@ -31,7 +31,7 @@ const menuContent = [
       },
       {
         name: "Hosting + Support",
-        routerPath: "/service-details",
+        routerPath: "/hosting-support",
       },
     ],
   },

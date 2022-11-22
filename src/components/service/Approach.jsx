@@ -29,7 +29,7 @@ const approachContent = [
     title: "Support + Hosting",
     descriptions: `Your website is open 24 hours a day, it should never be offline or outdated. We offer support and hosting services for your site at our Canadian servers, keeping your customer data safe and secure.`,
     delayAnimation: "300",
-    linkTo: "/web-design-development"
+    linkTo: "/hosting-support"
   }
 ]
 
