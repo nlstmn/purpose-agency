@@ -7,6 +7,7 @@ const approachContent = [
     title: "Web Development",
     descriptions: `We design pages that speak brand with your visitors. Armed with the latest technologies, our front and back-end development teams bring your designs to life.`,
     delayAnimation: "0",
+    linkTo: "/web-design-development"
   },
 
   {
@@ -14,18 +15,21 @@ const approachContent = [
     title: "Digital Marketing",
     descriptions: `We create and execute omnichannel digital marketing strategies. From SEO and social media to paid campaigns, we work with you to capture leads through a reliable marketing strategy.`,
     delayAnimation: "100",
+    linkTo: "/web-design-development"
   },
   {
     subTitle: "THREE",
     title: "Strategy & Design for Nonprofits",
     descriptions: `Our Creative Director is still the CEO of an International Development organization - Finally, someone that understands the pain of organizations and speaks your own language.`,
     delayAnimation: "200",
+    linkTo: "/web-design-development"
   },
   {
     subTitle: "FOUR",
     title: "Support + Hosting",
     descriptions: `Your website is open 24 hours a day, it should never be offline or outdated. We offer support and hosting services for your site at our Canadian servers, keeping your customer data safe and secure.`,
     delayAnimation: "300",
+    linkTo: "/web-design-development"
   }
 ]
 
@@ -59,7 +63,7 @@ const Approach = () => {
                 className="ptf-spacer"
                 style={{ "--ptf-xxl": "2.5rem", "--ptf-md": "2.5rem" }}
               ></div>
-              <Link className="ptf-view-more-link" to="/blog-details">
+              <Link className="ptf-view-more-link" to={val.linkTo}>
                 View more
               </Link>
               <div

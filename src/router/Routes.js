@@ -12,6 +12,7 @@ import HomeModern from "../views/all-home-version/HomeModern"
 // Service
 import Service from "../views/inner-pages/service/Service"
 import ServiceDetails from "../views/inner-pages/service/ServiceDetails"
+import WebDesignDevelopment from "../views/inner-pages/service/WebDesignDevelopment"
 
 // About
 import AboutUs from "../views/inner-pages/about/AboutUs"
@@ -61,6 +62,7 @@ const Routes = () => {
           {/* Service */}
           <Route path="/service" component={Service} />
           <Route path="/service-details" component={ServiceDetails} />
+          <Route path="/web-design-development" component={WebDesignDevelopment} />
 
           {/* About */}
           <Route path="/about-us" component={AboutUs} />

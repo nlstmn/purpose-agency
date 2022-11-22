@@ -15,23 +15,23 @@ const menuContent = [
     dropDownItems: [
       {
         name: "Web Design & Development",
-        routerPath: "/works-grid",
+        routerPath: "/web-design-development",
       },
       {
         name: "Custom WordPress",
-        routerPath: "/works-masonry",
+        routerPath: "/service-details",
       },
       {
         name: "Digital Marketing",
-        routerPath: "/works-listing",
+        routerPath: "/service-details",
       },
       {
         name: "Strategy & Design for Social Impact",
-        routerPath: "/works-carousel",
+        routerPath: "/service-details",
       },
       {
         name: "Hosting + Support",
-        routerPath: "/works-showcase",
+        routerPath: "/service-details",
       },
     ],
   },

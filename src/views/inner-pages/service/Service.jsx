@@ -1,10 +1,7 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import HeaderStudio from "../../../components/header/HeaderStudio"
-import ServiceOne from "../../../components/service/ServiceOne"
 import Approach from "../../..//components/service/Approach"
-import ContactJarallax from "../../../components/jarallax/ContactJarallax"
-import CopyRight from "../../../components/footer/copyright/CopyRight"
 import FooterThreeDark from "../../../components/footer/FooterThreeDark"
 import { Link } from "react-router-dom"
 
