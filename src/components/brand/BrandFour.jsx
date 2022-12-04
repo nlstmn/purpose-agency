@@ -48,7 +48,7 @@ const BrandFour = () => {
               <div className="ptf-advantage-box__content">
                 <div className="ptf-advantage-box__image">
                   <img
-                    src={`assets/img/root/advantages/${val.icon}.png`}
+                    src={`assets/img/root/partners/${val.icon}.png`}
                     alt="Figma"
                     loading="lazy"
                   />

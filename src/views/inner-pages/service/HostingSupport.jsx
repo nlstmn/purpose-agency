@@ -1,15 +1,11 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import HeaderStudio from "../../../components/header/HeaderStudio"
-import CopyRight from "../../../components/footer/copyright/CopyRight"
 import FooterThreeDark from "../../../components/footer/FooterThreeDark"
 import ServiceListThree from "../../../components/list/ServiceListThree"
 import Faq from "../../../components/faq/Faq"
-import Skills from "../../../components/skill/Skills"
-import Approach2 from "../../../components/service/Approach2"
 import CounterThree from "../../../components/counter/CounterThree"
 import ImageGridFour from "../../../components/image-grid/ImageGridFour"
-import Blog from "../../../components/blog/Blog"
 import { Link } from "react-router-dom"
 
 const HostingSupport = () => {
