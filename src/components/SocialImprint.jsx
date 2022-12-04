@@ -5,13 +5,13 @@ const brandContent = [
         delayAnimation: "0",
         hoverBg: "#fcf8f4",
         imgHeight: "85px",
-        imgName: "image-1"
+        imgName: "social_imprint_1"
     },
     {
         delayAnimation: "100",
         hoverBg: "#f3f7fc",
         imgHeight: "78px",
-        imgName: "image-2"
+        imgName: "social_imprint_2"
     }
 ]
 
@@ -34,7 +34,7 @@ const SocialImprint = () => {
                         >
                             <div className="ptf-partner-box__image">
                                 <img
-                                    src={`assets/img/root/partners/${item.imgName}.png`}
+                                    src={`assets/img/root/socialimp/${item.imgName}.JPG`}
                                     alt="Zeplin"
                                     loading="lazy"
                                 />

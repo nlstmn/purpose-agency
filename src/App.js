@@ -6,7 +6,6 @@ import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import "aos/dist/aos.css"
 import { Helmet } from "react-helmet"
-import AnimatedCursor from "react-animated-cursor"
 
 const App = () => {
   useEffect(() => {
@@ -24,14 +23,6 @@ const App = () => {
           content="agency, bootstrap 5, business, clean, corporate, creative, fullpage, minimal, modern, multipurpose, parallax, personal, photography, portfolio, showcase"
         />
       </Helmet>
-      <AnimatedCursor
-        innerSize={8}
-        outerSize={44}
-        color="249, 201, 20"
-        outerAlpha={0.3}
-        innerScale={0.7}
-        outerScale={1.2}
-      />
       <ScrollToTop />
       <Routes />
     </>

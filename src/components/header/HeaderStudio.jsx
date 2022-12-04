@@ -53,22 +53,6 @@ const HeaderStudio = () => {
                 <DropdownMenu />
               </nav>
               <div
-                className={
-                  click ? "ptf-navbar-search is-open" : "ptf-navbar-search"
-                }
-              >
-                <div className="ptf-navbar-search__wrapper">
-                  <Search />
-                </div>
-                <div
-                  className="ptf-navbar-search__toggle"
-                  onClick={handleClick}
-                >
-                  <i className="lnir lnir-search-alt"></i>
-                  <i className="lnir lnir-close"></i>
-                </div>
-              </div>
-              <div
                 className="ptf-offcanvas-menu-icon js-offcanvas-menu-toggle bar right"
                 onClick={handleClick1}
               >
